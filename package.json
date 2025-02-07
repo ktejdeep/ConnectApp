@@ -18,6 +18,11 @@
     "react-dom": "^19.0.0",
      "tailwind-merge": "^1.14.0"
   },
+  "homepage": "https://your-username.github.io/your-repo",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
   "devDependencies": {
     "@types/node": "^22.13.1",
     "@types/react": "^19.0.8",
